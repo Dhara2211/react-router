@@ -9,9 +9,12 @@ export default function Layout() {
         <nav>
             <ul className='nav-bar'>
                 <li><Link className='nav-link'to="/">Home</Link></li>
-                <li>
-                    <Link className='nav-link'to="/about">About</Link></li>
+                <li><Link className='nav-link'to="/about">About</Link></li>
                 <li><Link className='nav-link'to="/contact">Contact</Link></li>
+                <li><Link className='nav-link'to="/service">Service</Link></li>
+                <li><Link className='nav-link'to="/counter">Counter</Link></li>
+                <li><Link className='nav-link'to="/effect">Effect</Link></li>
+
 
 
             </ul>
